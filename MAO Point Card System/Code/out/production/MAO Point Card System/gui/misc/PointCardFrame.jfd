@@ -1,0 +1,183 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_51" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.swingx.VerticalLayout ) ) {
+			name: "this"
+			"$locationPolicy": 1
+			"$sizePolicy": 1
+			"visible": true
+			"title": "Student Point Card | MAO Point Card System by Sudarshan Gopalakrishnan"
+			"background": new java.awt.Color( 250, 0, 84, 255 )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+				name: "vSpacer1"
+				"background": new java.awt.Color( 250, 0, 84, 255 )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class info.clearthought.layout.TableLayout ) {
+				"$columnSpecs": "208.0, 669.0"
+				"$rowSpecs": "pref, pref, pref, pref"
+				"hGap": 5
+				"vGap": 5
+			} ) {
+				name: "panel10"
+				"background": &Color0 new java.awt.Color( 250, 0, 84, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label16"
+					"text": "   Student Name"
+					"font": new java.awt.Font( "Cambria", 1, 24 )
+					"background": #Color0
+					"foreground": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "studentName"
+					"text": "Student Name"
+					"font": new java.awt.Font( "Cambria", 0, 20 )
+					"background": #Color0
+					"foreground": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+					"gridX": 1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label12"
+					"text": "   Teacher Name"
+					"font": &Font0 new java.awt.Font( "Cambria", 1, 18 )
+					"background": #Color0
+					"foreground": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+					"gridY": 1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "teacherName"
+					"text": "Teacher Name"
+					"font": &Font1 new java.awt.Font( "Cambria", 0, 16 )
+					"background": #Color0
+					"foreground": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+					"gridX": 1
+					"gridY": 1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label13"
+					"text": "   AMC Taken?"
+					"font": #Font0
+					"background": #Color0
+					"foreground": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+					"gridY": 2
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "amcTaken"
+					"text": "Yes or No"
+					"font": #Font1
+					"background": #Color0
+					"foreground": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+					"gridX": 1
+					"gridY": 2
+				} )
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+				name: "vSpacer4"
+				"background": new java.awt.Color( 96, 26, 93, 255 )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class info.clearthought.layout.TableLayout ) {
+				"$columnSpecs": "175.0, 175.0, 149.0, 189.0, 198.0"
+				"$rowSpecs": "center:fill"
+			} ) {
+				name: "panel1"
+				"background": &Color1 new java.awt.Color( 173, 0, 58, 255 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.swingx.VerticalLayout ) {
+					"gap": 10
+				} ) {
+					name: "meetings"
+					"background": #Color1
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "      Meetings"
+						"font": &Font2 new java.awt.Font( "Cambria", 1, 16 )
+						"background": new java.awt.Color( 219, 0, 74, 255 )
+						"foreground": sfield java.awt.Color white
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.swingx.VerticalLayout ) {
+					"gap": 10
+				} ) {
+					name: "tutorials"
+					"background": #Color1
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "      Tutorials"
+						"font": #Font2
+						"foreground": sfield java.awt.Color white
+						"background": new java.awt.Color( 186, 0, 63, 255 )
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+					"gridX": 1
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.swingx.VerticalLayout ) {
+					"gap": 10
+				} ) {
+					name: "socials"
+					"background": new java.awt.Color( 173, 0, 58, 255 )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "      Socials"
+						"font": #Font2
+						"foreground": sfield java.awt.Color white
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+					"gridX": 2
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.swingx.VerticalLayout ) {
+					"gap": 10
+				} ) {
+					name: "contests"
+					"background": #Color1
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "      Math Contests"
+						"font": #Font2
+						"foreground": sfield java.awt.Color white
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+					"gridX": 3
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.swingx.VerticalLayout ) {
+					"gap": 10
+				} ) {
+					name: "others"
+					"background": #Color1
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "events"
+						"text": "      Other Events"
+						"font": #Font2
+						"foreground": sfield java.awt.Color white
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+					"gridX": 4
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.swingx.VerticalLayout ) {
+				"gap": 10
+			} ) {
+				name: "totalPoints"
+				"background": new java.awt.Color( 96, 26, 93, 255 )
+				add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+					name: "vSpacer5"
+					"background": new java.awt.Color( 96, 26, 93, 255 )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "print"
+				"text": "Print Point Card"
+				"font": new java.awt.Font( "Cambria Math", 0, 19 )
+				"background": new java.awt.Color( 250, 0, 84, 255 )
+				"foreground": sfield java.awt.Color white
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 900, 275 )
+		} )
+	}
+}

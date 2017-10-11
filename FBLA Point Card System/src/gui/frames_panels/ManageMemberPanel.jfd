@@ -1,0 +1,152 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_51" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"background": &Color0 new java.awt.Color( 250, 0, 84, 255 )
+			add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+				name: "splitPane1"
+				"dividerSize": 0
+				"dividerLocation": 200
+				"background": #Color0
+				add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+					name: "leftSplitPanel"
+					"orientation": 0
+					"dividerSize": 0
+					"background": #Color0
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "memberFilter"
+						"font": new java.awt.Font( "Cambria", 0, 12 )
+						"background": new java.awt.Color( 232, 232, 232, 255 )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "left"
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						"background": #Color0
+						add( new FormComponent( "javax.swing.JList" ) {
+							name: "memberList"
+							"font": new java.awt.Font( "Calibri", 0, 12 )
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "right"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "left"
+				} )
+				add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+					name: "rightSplitPanel"
+					"dividerSize": 5
+					"dividerLocation": 800
+					"background": #Color0
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane2"
+						"background": #Color0
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table1"
+							"font": new java.awt.Font( "Calibri", 0, 12 )
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "left"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.swingx.VerticalLayout ) {
+						"gap": 10
+					} ) {
+						name: "panel1"
+						"background": #Color0
+						add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+							name: "vSpacer1"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "saveCloseButton"
+							"text": "Save and Close"
+							"font": new java.awt.Font( "Cambria", 1, 18 )
+							"background": &Color1 new java.awt.Color( 96, 26, 93, 255 )
+							"foreground": sfield java.awt.Color white
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label1"
+							"text": "Tools"
+							"horizontalAlignment": 0
+							"font": new java.awt.Font( "Cambria Math", 0, 20 )
+							"foreground": sfield java.awt.Color white
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "addMember"
+							"text": "Add Member"
+							"font": &Font0 new java.awt.Font( "Cambria", 0, 15 )
+							"background": #Color1
+							"foreground": sfield java.awt.Color white
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "removeMember"
+							"text": "Remove Member"
+							"font": #Font0
+							"background": #Color1
+							"foreground": sfield java.awt.Color white
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "loadMembers"
+							"text": "Load Members from List"
+							"font": #Font0
+							"background": #Color1
+							"foreground": sfield java.awt.Color white
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "generateList"
+							"text": "Generate List Of Inductees"
+							"font": #Font0
+							"background": #Color1
+							"foreground": sfield java.awt.Color white
+						} )
+						add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+							name: "vSpacer2"
+							"background": #Color1
+							"foreground": sfield java.awt.Color white
+						} )
+						add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+							name: "vSpacer3"
+							"background": #Color1
+							"foreground": sfield java.awt.Color white
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "markFallRemoval"
+							"text": "Mark Fall Semester Removals"
+							"font": #Font0
+							"background": #Color1
+							"foreground": sfield java.awt.Color white
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "resetMarkings"
+							"text": "Reset Markings to Default"
+							"font": #Font0
+							"background": #Color1
+							"foreground": sfield java.awt.Color white
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "removeFallRemovals"
+							"text": "Remove Fall Semester Removals"
+							"font": #Font0
+							"background": #Color1
+							"foreground": sfield java.awt.Color white
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "right"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "right"
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 25
+				"width": 1000
+				"height": 475
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1085, 500 )
+		} )
+	}
+}

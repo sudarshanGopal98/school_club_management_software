@@ -1,0 +1,196 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_51" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.swingx.VerticalLayout ) {
+			"gap": 10
+		} ) {
+			name: "this"
+			"$locationPolicy": 0
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Settings"
+				"font": new java.awt.Font( "Cambria", 0, 30 )
+				"horizontalAlignment": 0
+				"foreground": sfield java.awt.Color white
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+				name: "vSpacer2"
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Manage Points"
+				"font": &Font0 new java.awt.Font( "Cambria", 1, 18 )
+				"foreground": sfield java.awt.Color white
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.swingx.HorizontalLayout ) {
+				"gap": 10
+			} ) {
+				name: "panel1"
+				add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+					name: "hSpacer1"
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Meetings"
+					"font": &Font1 new java.awt.Font( "Cambria", 0, 18 )
+					"foreground": sfield java.awt.Color white
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "meeting"
+					"columns": 18
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "Points"
+					"font": &Font2 new java.awt.Font( "Cambria", 0, 16 )
+					"foreground": sfield java.awt.Color white
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.swingx.HorizontalLayout ) {
+				"gap": 10
+			} ) {
+				name: "panel2"
+				add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+					name: "hSpacer2"
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "Tutorials"
+					"font": #Font1
+					"foreground": sfield java.awt.Color white
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tutorial"
+					"columns": 18
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label8"
+					"text": "Points"
+					"font": #Font2
+					"foreground": sfield java.awt.Color white
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.swingx.HorizontalLayout ) {
+				"gap": 10
+			} ) {
+				name: "panel3"
+				add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+					name: "hSpacer3"
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "Socials    "
+					"font": #Font1
+					"foreground": sfield java.awt.Color white
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "social"
+					"columns": 18
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label9"
+					"text": "Points"
+					"font": #Font2
+					"foreground": sfield java.awt.Color white
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.swingx.HorizontalLayout ) {
+				"gap": 10
+			} ) {
+				name: "panel4"
+				add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+					name: "hSpacer4"
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "AMC        "
+					"font": #Font1
+					"foreground": sfield java.awt.Color white
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "amc"
+					"columns": 18
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label10"
+					"text": "Points"
+					"font": #Font2
+					"foreground": sfield java.awt.Color white
+				} )
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+				name: "vSpacer3"
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label12"
+				"text": "Manage Requirements"
+				"font": #Font0
+				"foreground": sfield java.awt.Color white
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.swingx.HorizontalLayout ) {
+				"gap": 10
+			} ) {
+				name: "panel5"
+				add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+					name: "hSpacer5"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label13"
+					"text": "MAO Requirement  "
+					"font": #Font1
+					"foreground": sfield java.awt.Color white
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "maoInductions"
+					"columns": 10
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label14"
+					"text": "Points"
+					"font": #Font2
+					"foreground": sfield java.awt.Color white
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.swingx.HorizontalLayout ) {
+				"gap": 10
+			} ) {
+				name: "panel6"
+				add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+					name: "hSpacer6"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label15"
+					"text": "Theta Requirement"
+					"font": #Font1
+					"foreground": sfield java.awt.Color white
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "thetaInduction"
+					"columns": 10
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label16"
+					"text": "Points"
+					"font": #Font2
+					"foreground": sfield java.awt.Color white
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "save"
+				"text": "Save"
+				"foreground": sfield java.awt.Color white
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 405 )
+		} )
+	}
+}

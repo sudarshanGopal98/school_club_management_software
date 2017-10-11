@@ -1,0 +1,176 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_51" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"background": new java.awt.Color( 224, 0, 64, 255 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "eventName"
+				"text": "NameHolder for Event Type"
+				"horizontalAlignment": 0
+				"font": new java.awt.Font( "Cambria Math", 0, 26 )
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 35
+				"width": 800
+				"height": 40
+			} )
+			add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+				name: "splitPane2"
+				"dividerLocation": 200
+				"dividerSize": 1
+				add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+					name: "splitPane4"
+					"orientation": 0
+					"dividerSize": 1
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "attendeeFilter"
+						"font": new java.awt.Font( "Cambria", 0, 12 )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "left"
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						add( new FormComponent( "javax.swing.JList" ) {
+							name: "attendeeList"
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "right"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "left"
+				} )
+				add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+					name: "splitPane3"
+					"dividerLocation": 400
+					"dividerSize": 1
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "panel1"
+						"background": new java.awt.Color( 65, 16, 63, 255 )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label1"
+							"text": "Enter or Scan ID"
+							"font": new java.awt.Font( "Cambria", 0, 19 )
+							"horizontalAlignment": 0
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"x": 40
+							"y": 25
+							"width": 315
+						} )
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "checkinID"
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"x": 40
+							"y": 55
+							"width": 315
+							"height": 30
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "saveCloseButton"
+							"text": "Save and Close"
+							"font": new java.awt.Font( "Cambria Math", 0, 15 )
+							"background": new java.awt.Color( 192, 0, 52, 255 )
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"x": 40
+							"y": 115
+							"width": 315
+							"height": 30
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "left"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "panel2"
+						"background": new java.awt.Color( 224, 0, 64, 255 )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPane2"
+							add( new FormComponent( "javax.swing.JList" ) {
+								name: "listOfEvents"
+							} )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"y": 50
+							"width": 196
+							"height": 260
+							"x": 0
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label2"
+							"text": "List of Past Events"
+							"font": new java.awt.Font( "Cambria", 0, 16 )
+							"horizontalAlignment": 0
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"x": 0
+							"y": 5
+							"width": 195
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label3"
+							"text": "Click on a listing to load that event"
+							"horizontalAlignment": 0
+							"font": new java.awt.Font( "Cambria Math", 0, 12 )
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"x": 0
+							"y": 30
+							"width": 195
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "right"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "right"
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 80
+				"width": 800
+				"height": 315
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "delete"
+				"text": "Delete <CurrentEventName>"
+				"font": &Font0 new java.awt.Font( "Cambria", 0, 18 )
+				"background": &Color0 new java.awt.Color( 118, 16, 63, 255 )
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 435
+				"width": 800
+				"height": 40
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "export"
+				"text": "Export Check In List"
+				"font": #Font0
+				"background": #Color0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 800
+				"height": 40
+				"x": 0
+				"y": 475
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "add"
+				"text": "Add New Event"
+				"font": #Font0
+				"background": #Color0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 800
+				"height": 40
+				"x": 0
+				"y": 395
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 800, 515 )
+		} )
+	}
+}
